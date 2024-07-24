@@ -16,14 +16,17 @@ const App = () => {
           animationData={animationData}
           loop={true}
           autoplay={true}
-          speed = {2}
+          rendererSettings= {{
+            preserveAspectRatio : 'xMidYMid slice'}
+          }
+          speed = {4}
         />
       <header className="header">
           <img src={uniCardsLogo} alt="Uni Logo" className="logo" />
           <button className="paycheck-button">Uni Paycheck</button>
         </header>
       <main className="main-content">
-        <div>
+        <div className='onboard'>
         
         <h1 className="title">NX Wave. The next-gen credit card for those who love rewards.</h1>
         <p className="subtitle">1% Cashback + 5x Rewards + Zero Forex Markup</p>
@@ -40,7 +43,7 @@ const App = () => {
         
         
       </div>
-      <img src={heropng} alt = 'Hero png'/>
+      <img src={heropng} alt = 'Hero png' className='heropng'/>
       </main>
       
     </div>
