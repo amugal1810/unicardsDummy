@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden; /* To prevent scrollbars */
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #000;
+  z-index: 1; /* Ensure content is above the animation */
+}
+
+.animation-background {
+  display: flex;
+  position: absolute;
+  justify-self: start;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 99vh;
+  z-index: 0; /* Ensure animation is behind the content */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  z-index: 1; /* Ensure header is above the animation */
+}
+
+.logo {
+  width: 100px;
+}
+
+.paycheck-button {
+  background-color: #2C9178;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  max-width: 800px;
+  margin: 20px 0;
+  z-index: 1; /* Ensure main content is above the animation */
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.phone-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.apply-button {
+  background-color: #F6AE33;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.consent {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.consent input {
+  margin-right: 10px;
+}
+
+.card-image {
+  width: 200px;
+  margin: 20px 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  z-index: 1; /* Ensure footer is above the animation */
+}
+
+.issuer-logo {
+  width: 100px;
+  margin-left: 10px;
+}
