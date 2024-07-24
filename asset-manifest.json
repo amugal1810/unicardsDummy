@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.88f80959.css",
-    "main.js": "/static/js/main.d1e5b15c.js",
-    "static/js/453.32a05a12.chunk.js": "/static/js/453.32a05a12.chunk.js",
-    "static/media/nx_wave_hero.png": "/static/media/nx_wave_hero.eea7523e00f5d1487c80.png",
-    "index.html": "/index.html",
-    "main.88f80959.css.map": "/static/css/main.88f80959.css.map",
-    "main.d1e5b15c.js.map": "/static/js/main.d1e5b15c.js.map",
-    "453.32a05a12.chunk.js.map": "/static/js/453.32a05a12.chunk.js.map"
+    "main.css": "/unicardsDummy/static/css/main.88f80959.css",
+    "main.js": "/unicardsDummy/static/js/main.f76c77d4.js",
+    "static/js/453.32a05a12.chunk.js": "/unicardsDummy/static/js/453.32a05a12.chunk.js",
+    "static/media/nx_wave_hero.png": "/unicardsDummy/static/media/nx_wave_hero.eea7523e00f5d1487c80.png",
+    "index.html": "/unicardsDummy/index.html",
+    "main.88f80959.css.map": "/unicardsDummy/static/css/main.88f80959.css.map",
+    "main.f76c77d4.js.map": "/unicardsDummy/static/js/main.f76c77d4.js.map",
+    "453.32a05a12.chunk.js.map": "/unicardsDummy/static/js/453.32a05a12.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88f80959.css",
-    "static/js/main.d1e5b15c.js"
+    "static/js/main.f76c77d4.js"
   ]
 }
